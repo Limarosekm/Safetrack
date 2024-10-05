@@ -80,11 +80,43 @@ public class MainActivity extends AppCompatActivity {
         GeoPoint landslidePoint1 = new GeoPoint(9.96, 76.59);
         GeoPoint landslidePoint2 = new GeoPoint(10.13, 76.59);
         GeoPoint landslidePoint3 = new GeoPoint(11.23, 75.84);
+        GeoPoint landslidePoint4 = new GeoPoint(30.22, 73.26);
+        GeoPoint landslidePoint5 = new GeoPoint(37.05, 80.50);
+        GeoPoint landslidePoint6 = new GeoPoint(21.95, 82.70);
+        GeoPoint landslidePoint7 = new GeoPoint(9.96, 76.59);
+        GeoPoint landslidePoint8 = new GeoPoint(10.13, 76.59);
+        GeoPoint landslidePoint9 = new GeoPoint(11.23, 75.84);
+        GeoPoint landslidePoint10 = new GeoPoint(9.96, 76.59);
+        GeoPoint landslidePoint11 = new GeoPoint(10.13, 76.59);
+        GeoPoint landslidePoint12 = new GeoPoint(11.23, 75.84);
+        GeoPoint landslidePoint13 = new GeoPoint(9.96, 76.59);
+        GeoPoint landslidePoint14 = new GeoPoint(10.13, 76.59);
+        GeoPoint landslidePoint15 = new GeoPoint(11.23, 75.84);
+        GeoPoint landslidePoint16 = new GeoPoint(9.96, 76.59);
+        GeoPoint landslidePoint17 = new GeoPoint(10.13, 76.59);
+        GeoPoint landslidePoint18 = new GeoPoint(11.23, 75.84);
+        GeoPoint landslidePoint19 = new GeoPoint(11.23, 75.84);
 
         // Create and add markers for landslide-prone areas
         addMarker(landslidePoint1, "Landslide-Prone Area 1", Color.GREEN);
         addMarker(landslidePoint2, "Landslide-Prone Area 2", Color.GREEN);
         addMarker(landslidePoint3, "Landslide-Prone Area 3", Color.GREEN);
+        addMarker(landslidePoint4, "Landslide-Prone Area 4", Color.GREEN);
+        addMarker(landslidePoint5, "Landslide-Prone Area 6", Color.GREEN);
+        addMarker(landslidePoint6, "Landslide-Prone Area 7", Color.GREEN);
+        addMarker(landslidePoint7, "Landslide-Prone Area 8", Color.GREEN);
+        addMarker(landslidePoint8, "Landslide-Prone Area 9", Color.GREEN);
+        addMarker(landslidePoint9, "Landslide-Prone Area 10", Color.GREEN);
+        addMarker(landslidePoint10, "Landslide-Prone Area 11", Color.GREEN);
+        addMarker(landslidePoint11, "Landslide-Prone Area 12", Color.GREEN);
+        addMarker(landslidePoint12, "Landslide-Prone Area 13", Color.GREEN);
+        addMarker(landslidePoint13, "Landslide-Prone Area 13", Color.GREEN);
+        addMarker(landslidePoint14, "Landslide-Prone Area 14", Color.GREEN);
+        addMarker(landslidePoint15, "Landslide-Prone Area 15", Color.GREEN);
+        addMarker(landslidePoint16, "Landslide-Prone Area 16", Color.GREEN);
+        addMarker(landslidePoint17, "Landslide-Prone Area 17", Color.GREEN);
+        addMarker(landslidePoint18, "Landslide-Prone Area 18", Color.GREEN);
+        addMarker(landslidePoint19, "Landslide-Prone Area 19", Color.GREEN);
     }
 
     private void addFloodMarkers() {
@@ -92,11 +124,46 @@ public class MainActivity extends AppCompatActivity {
         GeoPoint floodPoint1 = new GeoPoint(9.90, 76.27);
         GeoPoint floodPoint2 = new GeoPoint(10.08, 76.49);
         GeoPoint floodPoint3 = new GeoPoint(8.57, 76.59);
+        GeoPoint floodPoint4 = new GeoPoint(10.08, 76.49);
+        GeoPoint floodPoint5 = new GeoPoint(8.57, 76.59);
+        GeoPoint floodPoint6 = new GeoPoint(9.90, 76.27);
+        GeoPoint floodPoint7 = new GeoPoint(10.08, 76.49);
+        GeoPoint floodPoint8 = new GeoPoint(8.57, 76.59);
+        GeoPoint floodPoint9 = new GeoPoint(9.90, 76.27);
+        GeoPoint floodPoint10 = new GeoPoint(10.08, 76.49);
+        GeoPoint floodPoint11= new GeoPoint(8.57, 76.59);
+        GeoPoint floodPoint12 = new GeoPoint(9.90, 76.27);
+        GeoPoint floodPoint13 = new GeoPoint(10.08, 76.49);
+        GeoPoint floodPoint14 = new GeoPoint(8.57, 76.59);
+        GeoPoint floodPoint15 = new GeoPoint(9.90, 76.27);
+        GeoPoint floodPoint16 = new GeoPoint(10.08, 76.49);
+        GeoPoint floodPoint17 = new GeoPoint(8.57, 76.59);
+        GeoPoint floodPoint18 = new GeoPoint(9.90, 76.27);
+        GeoPoint floodPoint19 = new GeoPoint(10.08, 76.49);
+        GeoPoint floodPoint20 = new GeoPoint(8.57, 76.59);
+
 
         // Create and add markers for flood-prone areas
         addMarker(floodPoint1, "Flood-Prone Area 1", Color.BLUE);
         addMarker(floodPoint2, "Flood-Prone Area 2", Color.BLUE);
         addMarker(floodPoint3, "Flood-Prone Area 3", Color.BLUE);
+        addMarker(floodPoint4, "Flood-Prone Area 4", Color.BLUE);
+        addMarker(floodPoint5, "Flood-Prone Area 5", Color.BLUE);
+        addMarker(floodPoint6, "Flood-Prone Area 6", Color.BLUE);
+        addMarker(floodPoint7, "Flood-Prone Area 7", Color.BLUE);
+        addMarker(floodPoint8, "Flood-Prone Area 8", Color.BLUE);
+        addMarker(floodPoint9, "Flood-Prone Area 9", Color.BLUE);
+        addMarker(floodPoint10, "Flood-Prone Area 10", Color.BLUE);
+        addMarker(floodPoint11, "Flood-Prone Area 11", Color.BLUE);
+        addMarker(floodPoint12, "Flood-Prone Area 12", Color.BLUE);
+        addMarker(floodPoint13, "Flood-Prone Area 13", Color.BLUE);
+        addMarker(floodPoint14, "Flood-Prone Area 14", Color.BLUE);
+        addMarker(floodPoint15, "Flood-Prone Area 15", Color.BLUE);
+        addMarker(floodPoint16, "Flood-Prone Area 16", Color.BLUE);
+        addMarker(floodPoint17, "Flood-Prone Area 17", Color.BLUE);
+        addMarker(floodPoint18, "Flood-Prone Area 18", Color.BLUE);
+        addMarker(floodPoint19, "Flood-Prone Area 19", Color.BLUE);
+        addMarker(floodPoint20, "Flood-Prone Area 20", Color.BLUE);
     }
 
     private void addMarker(GeoPoint point, String title, int color) {
