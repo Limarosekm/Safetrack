@@ -1,5 +1,6 @@
 package com.example.safetrack;
 
+
 import java.util.List;
 
 public class WeatherResponse {
@@ -48,6 +49,7 @@ public class WeatherResponse {
     public static class Current {
         private double temp_c;
         private Condition condition;
+        private int humidity;
 
         public double getTempC() {
             return temp_c;
@@ -64,17 +66,13 @@ public class WeatherResponse {
         public void setCondition(Condition condition) {
             this.condition = condition;
         }
-    }
 
-    public static class Condition {
-        private String text;
-
-        public String getText() {
-            return text;
+        public int getHumidity() {
+            return humidity;
         }
 
-        public void setText(String text) {
-            this.text = text;
+        public void setHumidity(int humidity) {
+            this.humidity = humidity;
         }
     }
 
@@ -138,6 +136,19 @@ public class WeatherResponse {
                     this.condition = condition;
                 }
             }
+        }
+    }
+
+    // Move the Condition class outside to avoid confusion and access issues
+    public static class Condition {
+        private String text;
+
+        public String getText() {
+            return text;
+        }
+
+        public void setText(String text) {
+            this.text = text;
         }
     }
 }

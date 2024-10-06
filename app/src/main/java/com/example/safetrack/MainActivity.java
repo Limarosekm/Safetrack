@@ -83,19 +83,19 @@ public class MainActivity extends AppCompatActivity {
         GeoPoint landslidePoint4 = new GeoPoint(30.22, 73.26);
         GeoPoint landslidePoint5 = new GeoPoint(37.05, 80.50);
         GeoPoint landslidePoint6 = new GeoPoint(21.95, 82.70);
-        GeoPoint landslidePoint7 = new GeoPoint(9.96, 76.59);
-        GeoPoint landslidePoint8 = new GeoPoint(10.13, 76.59);
-        GeoPoint landslidePoint9 = new GeoPoint(11.23, 75.84);
-        GeoPoint landslidePoint10 = new GeoPoint(9.96, 76.59);
-        GeoPoint landslidePoint11 = new GeoPoint(10.13, 76.59);
-        GeoPoint landslidePoint12 = new GeoPoint(11.23, 75.84);
-        GeoPoint landslidePoint13 = new GeoPoint(9.96, 76.59);
-        GeoPoint landslidePoint14 = new GeoPoint(10.13, 76.59);
-        GeoPoint landslidePoint15 = new GeoPoint(11.23, 75.84);
-        GeoPoint landslidePoint16 = new GeoPoint(9.96, 76.59);
-        GeoPoint landslidePoint17 = new GeoPoint(10.13, 76.59);
-        GeoPoint landslidePoint18 = new GeoPoint(11.23, 75.84);
-        GeoPoint landslidePoint19 = new GeoPoint(11.23, 75.84);
+        GeoPoint landslidePoint7 = new GeoPoint(11.27, 76.00);
+        GeoPoint landslidePoint8 = new GeoPoint(11.45, 77.2);
+        GeoPoint landslidePoint9 = new GeoPoint(11.14, 75.53);
+        GeoPoint landslidePoint10 = new GeoPoint(10.08, 77.05);
+        GeoPoint landslidePoint11 = new GeoPoint(11.14, 105.4);
+        GeoPoint landslidePoint12 = new GeoPoint(27.08, 93.60);
+        GeoPoint landslidePoint13 = new GeoPoint(15.31, 75.10);
+        GeoPoint landslidePoint14 = new GeoPoint(13.55, 74.9);
+        GeoPoint landslidePoint15 = new GeoPoint(25.12, 91.47);
+        GeoPoint landslidePoint16 = new GeoPoint(30.10, 38.48);
+        GeoPoint landslidePoint17 = new GeoPoint(25.37, 91.52);
+        GeoPoint landslidePoint18 = new GeoPoint(11.17, 75.53);
+        GeoPoint landslidePoint19 = new GeoPoint(26.49, 88.13);
 
         // Create and add markers for landslide-prone areas
         addMarker(landslidePoint1, "Landslide-Prone Area 1", Color.GREEN);
@@ -121,26 +121,26 @@ public class MainActivity extends AppCompatActivity {
 
     private void addFloodMarkers() {
         // Example coordinates for flood-prone areas in Kerala
-        GeoPoint floodPoint1 = new GeoPoint(9.90, 76.27);
-        GeoPoint floodPoint2 = new GeoPoint(10.08, 76.49);
-        GeoPoint floodPoint3 = new GeoPoint(8.57, 76.59);
-        GeoPoint floodPoint4 = new GeoPoint(10.08, 76.49);
-        GeoPoint floodPoint5 = new GeoPoint(8.57, 76.59);
-        GeoPoint floodPoint6 = new GeoPoint(9.90, 76.27);
-        GeoPoint floodPoint7 = new GeoPoint(10.08, 76.49);
-        GeoPoint floodPoint8 = new GeoPoint(8.57, 76.59);
-        GeoPoint floodPoint9 = new GeoPoint(9.90, 76.27);
-        GeoPoint floodPoint10 = new GeoPoint(10.08, 76.49);
-        GeoPoint floodPoint11= new GeoPoint(8.57, 76.59);
-        GeoPoint floodPoint12 = new GeoPoint(9.90, 76.27);
-        GeoPoint floodPoint13 = new GeoPoint(10.08, 76.49);
-        GeoPoint floodPoint14 = new GeoPoint(8.57, 76.59);
-        GeoPoint floodPoint15 = new GeoPoint(9.90, 76.27);
+        GeoPoint floodPoint1 = new GeoPoint(10.31, 76.32);
+        GeoPoint floodPoint2 = new GeoPoint(10.27, 76.41);
+        GeoPoint floodPoint3 = new GeoPoint(27.56, 78.52);
+        GeoPoint floodPoint4 = new GeoPoint(26.25, 80.20);
+        GeoPoint floodPoint5 = new GeoPoint(21.36, 86.33);
+        GeoPoint floodPoint6 = new GeoPoint(15.42, 79.01);
+        GeoPoint floodPoint7 = new GeoPoint(20.20, 87.01);
+        GeoPoint floodPoint8 = new GeoPoint(28.89, 76.60);
+        GeoPoint floodPoint9 = new GeoPoint(28.99, 77.01);
+        GeoPoint floodPoint10 = new GeoPoint(26.58, 85.50);
+        GeoPoint floodPoint11= new GeoPoint(22.10, 71.15);
+        GeoPoint floodPoint12 = new GeoPoint(24.00, 90.00);
+        GeoPoint floodPoint13 = new GeoPoint(10.31, 76.32);
+        GeoPoint floodPoint14 = new GeoPoint(10.10, 76.35);
+        GeoPoint floodPoint15 = new GeoPoint(10.30, 76.33);
         GeoPoint floodPoint16 = new GeoPoint(10.08, 76.49);
-        GeoPoint floodPoint17 = new GeoPoint(8.57, 76.59);
-        GeoPoint floodPoint18 = new GeoPoint(9.90, 76.27);
-        GeoPoint floodPoint19 = new GeoPoint(10.08, 76.49);
-        GeoPoint floodPoint20 = new GeoPoint(8.57, 76.59);
+        GeoPoint floodPoint17 = new GeoPoint(9.37, 76.60);
+        GeoPoint floodPoint18 = new GeoPoint(10.78, 76.65);
+        GeoPoint floodPoint19 = new GeoPoint(13.05, 80.16);
+        GeoPoint floodPoint20 = new GeoPoint(10.38, 7);
 
 
         // Create and add markers for flood-prone areas
@@ -220,7 +220,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         weatherservice weatherService = retrofit.create(weatherservice.class);
-        Call<WeatherResponse> call = weatherService.getThreeDayWeather(city, "YOUR_API_KEY", 3); // Replace YOUR_API_KEY with your actual API key
+        Call<WeatherResponse> call = weatherService.getThreeDayWeather(city, "79504015e37345ffad674240240510", 3); // Replace YOUR_API_KEY with your actual API key
 
         call.enqueue(new Callback<WeatherResponse>() {
             @Override
@@ -246,7 +246,10 @@ public class MainActivity extends AppCompatActivity {
 
         forecastInfo.append("Location: ").append(weatherResponse.getLocation().getName()).append("\n")
                 .append("Current Temperature: ").append(weatherResponse.getCurrent().getTempC()).append("°C\n")
-                .append("Condition: ").append(weatherResponse.getCurrent().getCondition().getText()).append("\n\n");
+                .append("Condition: ").append(weatherResponse.getCurrent().getCondition().getText()).append("\n\n")
+                .append("Humidity: ").append(weatherResponse.getCurrent().getHumidity()).append("%\n\n"); // Correct line
+        // Add humidity
+        // Add humidity
 
         forecastInfo.append("3-Day Forecast:\n");
         for (WeatherResponse.Forecast.ForecastDay day : weatherResponse.getForecast().getForecastday()) {
